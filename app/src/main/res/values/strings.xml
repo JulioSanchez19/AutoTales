@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AutoTales</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lblCochesEnVenta">Coches en venta</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="VerDetalles">Ver Detalles</string>
+    <string name="NoInteresa">No me interesa</string>
+    <string name="title_activity_info_coche">Hola</string>
+    <string name="lblTituloCombustible">Combustible</string>
+    <string name="lblKilometros">Kilómetros</string>
+    <string name="lblPotencia">Potencia</string>
+    <string name="lblCambio">Cambio</string>
+    <string name="lblPuertas">Puertas</string>
+    <string name="lblPlazas">Plazas</string>
+    <string name="lblMarca">Marca</string>
+    <string name="lblModelo">Modelo</string>
+    <string name="lblPrecio">Precio</string>
+    <string name="lblDescripcion">Descripcion</string>
+    <string name="lblModificar">Modificar</string>
+    <string name="mostrarFavoritos">Mostrar favoritos</string>
+    <string name="cambiarVista">Cambiar vista</string>
+    <string name="ordenarPorPrecio">Ordenar por precio</string>
+    <string-array name="tiposCombustible">
+        <item>Diesel</item>
+        <item>Gasolina</item>
+        <item>Híbrido</item>
+        <item>Eléctrico</item>
+    </string-array>
+    <string-array name="tiposCambio">
+        <item>Manual</item>
+        <item>Automático</item>
+    </string-array>
+</resources>

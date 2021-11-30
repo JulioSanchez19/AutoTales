@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.autotales.MainActivity">
+    <item
+        android:id="@+id/ordenarPorPrecio"
+        android:icon="@drawable/dinero"
+        android:title="@string/ordenarPorPrecio"
+        android:onClick="ordenarPorPrecio"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/cambiarVista"
+        android:onClick="cambiarVista"
+        android:orderInCategory="102"
+        android:title="@string/cambiarVista"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mostrarFavoritos"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="@string/mostrarFavoritos"
+        android:onClick="mostrarSoloFavoritos"
+        app:showAsAction="always" />
+</menu>
